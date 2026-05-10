@@ -1,3 +1,12 @@
+# ========================================================
+# PROYECTO GITHUB FASE 4
+# Universidad Nacional Abierta y a Distancia (UNAD)
+# Curso: Programación - Código 213023
+# Estudiantes: Brian Stephen Montoya Parra; jorge Mamian
+# Fecha: 21/04/2026 Actividad colaborativa - proyecto_github
+# ========================================================
+
+
 import logging  # este Permite registrar errores en un archivo externo [cite: 92, 105]
 from abc import ABC, abstractmethod  # Necesario para crear clases abstractas 
 
@@ -52,7 +61,7 @@ class AsesoriaEspecializada(Servicio):
     def calcular_costo(self, horas):
         return (self.costo_por_hora * horas) * 1.10  # Incluye un 10% de cargo administrativo
 
-# --- 5. CLASE RESERVA ---
+# --- 5. CLASE RESERVA revisada---
 # Clase principal que coordina la operación y maneja excepciones [cite: 99]
 class Reserva:
     def __init__(self, cliente, servicio, horas):
